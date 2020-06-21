@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\phlaz\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\phlaz\\.nuget\\packages"
+    ]
+  }
+}
