@@ -17,7 +17,7 @@ namespace Tests
 		[Test]
 		public async Task GetSearchResult_SearchTermAndUriPassed_ContentIsReturned()
 		{
-			var result = await _httpClientWrapper.GetSearchResult("test", "http://www.bing.com/search?q=")
+			var result = await _httpClientWrapper.GetSearchResult("http://www.bing.com/search?q=", "test")
 				.ConfigureAwait(false);
 
 			Assert.IsNotEmpty(result);
